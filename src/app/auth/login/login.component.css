@@ -1,7 +1,39 @@
 .example-card {
-    max-width: 400px;
+  max-width: 400px;
+  background: rgba(200, 200, 200, 0.4); /* Fond semi-transparent */
+  backdrop-filter: blur(6px); /* Effet de flou */
+  -webkit-backdrop-filter: blur(5px); /* Pour Safari */
+  border-radius: 12px; /* Coins arrondis pour un effet plus esthétique */
+  padding: 16px; /* Espacement intérieur */
+}
+  .card{
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    height: 100vh;
   }
-
+  .space{
+    border-radius: 12px;
+    background-color: #b57a61;
+  }
   .space mat-icon{
     margin-right: 10px;
+    
   }  
+  .back{
+    height: 100vh;
+  }
+ 
+.action .like {
+  background-color: #b57a61;
+}
+.action .share {
+  color: #b57a61;
+  background-color: rgb(40, 36, 36);
+}
+.action{
+  display: flex; /* Flexbox pour aligner les boutons */
+  gap: 16px;
+  margin-right: 10px;
+  
+}

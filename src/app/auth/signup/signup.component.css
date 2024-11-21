@@ -1,0 +1,69 @@
+.example-card {
+    background: rgba(200, 200, 200, 0.4); /* Fond semi-transparent */
+    backdrop-filter: blur(6px); /* Effet de flou */
+    -webkit-backdrop-filter: blur(5px); /* Pour Safari */
+    border-radius: 12px; /* Coins arrondis pour un effet plus esthétique */
+     /* Espacement intérieur */
+  }
+    .card{
+      display: flex;
+      justify-content: center; 
+      align-items: center; 
+      height: 100vh;
+    }
+    .space{
+      border-radius: 12px;
+      background-color: #b57a61;
+    }
+    .space mat-icon{
+      margin-right: 10px;
+      
+    }  
+    .back{
+      height: 100vh;
+    }
+    .example-form {
+      display: flex;
+      flex-direction: column;
+      gap: 16px; /* Espacement entre les champs */
+  }
+  .action .like {
+    background-color: #b57a61;
+  }
+  .action .share {
+    color: #b57a61;
+    background-color: rgb(40, 36, 36);
+  }
+  .action{
+    display: flex; /* Flexbox pour aligner les boutons */
+    gap: 16px;
+    margin-right: 10px;
+    
+  }
+  .conte {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .form-container {
+    display: flex; 
+    width: 100%;
+    gap: 30px;
+  }
+  
+  .column {
+    flex: 1;
+  }
+  
+  
+  
+  /* Responsivité : sur petits écrans, les colonnes se mettent l'une sous l'autre */
+  @media (max-width: 768px) {
+    .separator {
+        display: none; /* Cachez le séparateur sur les petits écrans */
+    }
+    .form-container {
+        flex-direction: column; /* Les éléments se placent verticalement */
+    }
+  }
+  

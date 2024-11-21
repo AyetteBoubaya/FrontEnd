@@ -12,10 +12,10 @@ import {MatCardModule} from '@angular/material/card';
 })
 export class LoginComponent {
   password :boolean =true; 
-hide() {
+  hide() {
      this.password=!this.password;
     return !this.password;
-}
+  }
 
 clickEvent($event: MouseEvent) {
 throw new Error('Method not implemented.');

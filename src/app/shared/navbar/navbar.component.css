@@ -12,7 +12,7 @@ align-items: center;
 }
 
 .navbar__style {
-background: linear-gradient(rgb(0, 0, 0), #17151a, #341f34); /* Gradient background */
+background: linear-gradient(rgb(0, 0, 0), #0c0906, #6b4a3c); /* Gradient background */
 color: #110f0f; /* Text color */
 display: flex;
 justify-content: space-between;
@@ -25,7 +25,7 @@ color: #efe4e4;
 }
 
 .left__navbar mat-icon {
-color: #f25ddce1; /* Icon color */
+color: #b57a61; /* Icon color */
 
 }
 
@@ -36,13 +36,13 @@ align-items: center;
 }
 
 .right__navbar .demo-section button {
-color: #f25ddce1;
+color: b57a61;
 padding-left: 25px;
 padding-top: 20px;
 }
 
 .right__navbar mat-icon {
-color: #f25ddce1; /* Notification icon color */
+color: #b57a61; /* Notification icon color */
 }
 
 .right__navbar button[mat-button] {
